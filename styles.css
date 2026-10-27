@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:90%;
+}
+#header{
+    background-color: crimson;
+    color:white;
+    height: 50px;
+    display:flex;
+    font-size:22px;
+}
+
+#header h2{
+    font-size:1.3em;
+    margin-left:2em;
+    margin-top:0.2em;
+    margin-right:2em;
+
+}
+
+#header p{
+    font-size:1em;
+    margin-top:0.5em;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+#header p:hover{
+    background-color:rgb(87, 8, 24) ;
+}
+
+#body{
+    float:left;
+    width:69%;
+}
+
+#body_text{
+    width:90%;
+    font-family:"Segoe UI", Arial, sans-serif;
+    float:right;
+    font-size:1.1em;
+}
+
+#body h2{
+    margin:0.5em;
+}
+
+#body p{
+    padding:0.3em;
+}
+
+
+
+#right-bar{
+    width:29%;
+    height:90vh;
+    float:right;
+
+}
+
+.portrait{
+    background-color: rgb(223, 221, 221);
+    width: 90%;
+    margin:20px;
+}
+
+.portrait_image{
+    width:80%;
+    margin-left:10%;
+
+}
+
+.info_l{
+    font-weight:bold;
+    float:left;
+    width:30%;
+    margin-left:10%;
+}
+
+.info_r{
+    margin-left:10%;
+    width:50%;
+    float:right;
+}
+
+.info_str{
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+
+
+#footer{
+    width:auto;
+    margin-left:3em;
+}
+
+
+#footer h2{
+    margin-left:3em;
+}
+
+#sim_auth{
+    border: 1px solid black;
+    float:left;
+    padding:20px;
+    margin-left:4em;
+
+}
+
+#sim_auth img{
+    height: 25vh;
+}
